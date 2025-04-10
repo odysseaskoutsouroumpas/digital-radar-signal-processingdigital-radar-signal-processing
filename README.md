@@ -1,24 +1,26 @@
-# Εργαστήριο 1 – Δημιουργία Βασικών Σημάτων
+# Lab 1 – Basic Signal Generation
 
-Ο φάκελος αυτός περιέχει υλοποιήσεις βασικών διακριτών σημάτων που χρησιμοποιούνται συχνά στην Ψηφιακή Επεξεργασία Σήματος (DSP), καθώς και τις αντίστοιχες οπτικοποιήσεις τους.
+This repository contains Python implementations of basic discrete-time signals commonly used in Digital Signal Processing (DSP), along with their visualizations.
 
-## Περιεχόμενα
+## Contents
 
-- `unit_step_ramp.py`: Δημιουργία και απεικόνιση μονάδας βήματος (unit step u[n]) και μονάδας ράμπας (r[n]).
-- `triangle_wave_generation.py`: Γεννήτρια τριγωνικού παλμού με ρυθμιζόμενες παραμέτρους.
-- `vector_math_plotting.py`: Παραγωγή γραφικών για διανυσματική αναπαράσταση σημάτων.
-- `.png` αρχεία: Εικόνες των παραπάνω σημάτων όπως παράγονται από τους κώδικες.
+- `unit_step_ramp.py`: Creates and visualizes the unit step signal (u[n]) and the ramp signal (r[n]).
+- `triangle_wave_generation.py`: Generates a triangle wave with adjustable parameters.
+- `vector_math_plotting.py`: Generates plots for the vector representation of signals.
 
-## Προαπαιτούμενα
+### .png Files:
+- Visualizations of the above signals, generated from the Python scripts.
 
-- Python 3.x
-- Βιβλιοθήκες:
-  - `numpy`
-  - `matplotlib`
+---
 
-## Εκτέλεση παραδειγμάτων
+## 📦 Requirements
 
-Για να εκτελέσεις έναν από τους κώδικες:
+To run the scripts, make sure you have Python 3.x installed along with the following libraries:
+
+- `numpy` – for numerical operations.
+- `matplotlib` – for plotting and visualizing the signals.
+
+To install the necessary libraries, run:
 
 ```bash
-python unit_step_ramp.py
+pip install numpy matplotlib
