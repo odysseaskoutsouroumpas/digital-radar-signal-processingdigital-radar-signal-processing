@@ -4,6 +4,8 @@ This repository contains Python implementations of basic discrete-time signals c
 
 ## Contents
 
+## Python Scripts:
+
 - `unit_step_ramp.py`: Creates and visualizes the unit step signal (u[n]) and the ramp signal (r[n]).
 - `triangle_wave_generation.py`: Generates a triangle wave with adjustable parameters.
 - `vector_math_plotting.py`: Generates plots for the vector representation of signals.
