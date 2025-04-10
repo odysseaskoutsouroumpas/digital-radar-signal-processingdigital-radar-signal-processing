@@ -1,2 +1,24 @@
-# digital-radar-signal-processingdigital-radar-signal-processing
-Python library for radar signal processing, including basic signal functions, convolution, sampling, quantization, and RADAR techniques
+# Εργαστήριο 1 – Δημιουργία Βασικών Σημάτων
+
+Ο φάκελος αυτός περιέχει υλοποιήσεις βασικών διακριτών σημάτων που χρησιμοποιούνται συχνά στην Ψηφιακή Επεξεργασία Σήματος (DSP), καθώς και τις αντίστοιχες οπτικοποιήσεις τους.
+
+## Περιεχόμενα
+
+- `unit_step_ramp.py`: Δημιουργία και απεικόνιση μονάδας βήματος (unit step u[n]) και μονάδας ράμπας (r[n]).
+- `triangle_wave_generation.py`: Γεννήτρια τριγωνικού παλμού με ρυθμιζόμενες παραμέτρους.
+- `vector_math_plotting.py`: Παραγωγή γραφικών για διανυσματική αναπαράσταση σημάτων.
+- `.png` αρχεία: Εικόνες των παραπάνω σημάτων όπως παράγονται από τους κώδικες.
+
+## Προαπαιτούμενα
+
+- Python 3.x
+- Βιβλιοθήκες:
+  - `numpy`
+  - `matplotlib`
+
+## Εκτέλεση παραδειγμάτων
+
+Για να εκτελέσεις έναν από τους κώδικες:
+
+```bash
+python unit_step_ramp.py
