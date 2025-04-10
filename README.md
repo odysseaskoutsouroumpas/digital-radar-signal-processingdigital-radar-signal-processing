@@ -26,3 +26,4 @@ To install the necessary libraries, run:
 
 ```bash
 pip install numpy matplotlib
+
